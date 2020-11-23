@@ -64,7 +64,7 @@ def banner():
 
 def ver_check():
 	print(G + '[+]' + C + ' Checking for Updates.....', end='')
-	ver_url = 'https://raw.githubusercontent.com/AnXsec-Syndicate/anontrack/master/version.txt'
+	ver_url = 'https://raw.githubusercontent.com/Anxsec-Syndicate/anontrack/master/version.txt'
 	try:
 		ver_rqst = requests.get(ver_url)
 		ver_sc = ver_rqst.status_code
