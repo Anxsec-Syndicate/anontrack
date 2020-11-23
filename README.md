@@ -164,11 +164,4 @@ docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http anontra
 
 * Layanan seperti Serveo dan Ngrok dilarang di beberapa negara seperti Rusia dll.,jadi jika itu dilarang di negara Anda, Anda mungkin tidak mendapatkan URL, jika tidak maka pertama BACA MASALAH TERTUTUP, jika masalah Anda tidak terdaftar, buat masalah baru.
 
-## Demo
-
-| Demo | Link |
-|-|-|
-| WhatsApp Template Demo | https://www.youtube.com/watch?v=dG0HkQmF4-A |
-| What's new in v1.1.9 | https://www.youtube.com/watch?v=FEyAPjkJFrk |
-| First Version | https://www.youtube.com/watch?v=ggUGPq4cjSM |
 
