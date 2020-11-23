@@ -76,7 +76,7 @@ Anda dapat memilih template yang akan digunakan oleh pencari dari ini:
 ### Kali Linux / Ubuntu / Parrot OS
 
 ```bash
-git clone https://github.com/AnXsec-Syndicate/anontrack.git
+git clone https://github.com/Anxsec-Syndicate/anontrack.git
 cd anontrack/
 chmod 777 install.sh
 ./install.sh
@@ -91,13 +91,13 @@ pacman -S anontrack
 ### Docker
 
 ```bash
-docker pull AnXsec-Syndicate/anontrack
+docker pull Anxsec-Syndicate/anontrack
 ```
 
 ### Termux
 
 ```bash
-git clone https://github.com/AnXsec-Syndicate/anontrack.git
+git clone https://github.com/Anxsec-Syndicate/anontrack.git
 cd anontrack/
 chmod 777 termux_install.sh
 ./termux_install.sh
@@ -145,7 +145,7 @@ python3 anontrack.py --tunnel manual --subdomain zomato
 
 # SERVEO
 ########
-docker run -t --rm AnXsec-Syndicate/anontrack
+docker run -t --rm Anxsec-Syndicate/anontrack
 
 # NGROK
 #######
@@ -154,7 +154,7 @@ docker run -t --rm AnXsec-Syndicate/anontrack
 docker membuat jaringan ngroknet
 
 # Step 2
-docker run --rm -t --net ngroknet --name anontrack AnXsec-Syndicate/anontrack python3 anontrack.py -t manual
+docker run --rm -t --net ngroknet --name anontrack Anxsec-Syndicate/anontrack python3 anontrack.py -t manual
 
 # Step 3
 docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http anontrack:8080
